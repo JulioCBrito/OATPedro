@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h2, h3 {
+    color: #0066cc;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.list-group-item {
+    background-color: #e0f7fa;
+    border: 1px solid #b0e0e6;
+    color: #0066cc;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item:hover {
+    background-color: #b0e0e6;
+}
+
+.btn-excluir {
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn-excluir:hover {
+    background-color: #ff6347;
+    color: white;
+}
